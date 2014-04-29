@@ -2,3 +2,63 @@
 We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
 However, this blank file is available if you prefer
 */
+
+/* index page */
+.topLogo {
+ margin-top: 50px;
+}
+
+.topTitle{
+ line-height: 100px;
+ text-align: center;
+}
+
+.topRow{
+ smargin-bottom: 20px;
+}
+
+.topColumns{
+ text-align: center;
+ margin-bottom: 0;
+}
+
+#topBtnCustom{
+ display: block;
+ text-align: center;
+ width: 150px;
+ margin: 0 auto;
+}
+
+/* about page */
+.aboutLogo{
+ line-height: 100px;
+ text-align: center;
+ margin-top: 50px;"
+}
+
+.aboutText{
+ text-align: center;
+}
+
+/* members page */
+.membersTitle{
+ line-height: 100px;
+ text-align: center;
+ margin-top: 50px;
+}
+
+.membersPicture{
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* project page*/
+#projectContents{
+ margin-bottom: 20px;
+ margin-top: 100px;
+}
+
+.projectColumns{
+ text-align: left;
+ margin-bottom: 0;
+}
