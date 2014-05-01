@@ -29,6 +29,10 @@ However, this blank file is available if you prefer
  margin: 0 auto;
 }
 
+.modal > .content{
+  min-height :30%;
+}
+
 /* about page */
 .aboutLogo{
  line-height: 100px;
