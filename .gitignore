@@ -1,1 +1,6 @@
+# bundle
+.bundle/
+vendor/
+
+# jekyll
 _site
