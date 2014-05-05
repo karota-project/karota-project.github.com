@@ -1,4 +1,5 @@
 name: karota
+#rootpath: /  # default is /
 markdown: redcarpet
 pygments: true
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
