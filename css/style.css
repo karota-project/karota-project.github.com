@@ -3,6 +3,12 @@ We highly recommend you use SASS and write your custom styles in sass/_custom.sc
 However, this blank file is available if you prefer
 */
 
+/* common */
+#socialButtons {
+ margin-top: 50px;
+ text-align: center;
+}
+
 /* index page */
 .topLogo {
  margin-top: 50px;
