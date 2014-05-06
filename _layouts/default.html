@@ -14,22 +14,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+	<meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
 	<meta name="author" content="humans.txt">
 
   <link rel="shortcut icon" href="{{ site.rootpath }}/favicon.png" type="image/x-icon" />
 
 	<!-- Facebook Metadata /-->
 	<meta property="fb:page_id" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:description" content=""/>
-	<meta property="og:title" content=""/>
+  <meta property="og:image" content="{{ site.rootpath }}/img/karo-ta/icon.png" />
+	<meta property="og:description" content="{{ site.description }}"/>
+	<meta property="og:title" content="{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}"/>
 
 	<!-- Google+ Metadata /-->
-	<meta itemprop="name" content="">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="">
+  <meta itemprop="name" content="{{ site.name }}">
+  <meta itemprop="description" content="{{ site.description }}">
+	<meta itemprop="image" content="{{ site.rootpath }}/img/karo-ta/icon.png">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
