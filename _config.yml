@@ -1,0 +1,7 @@
+name: karota
+description: karota peoject is a gadget development team
+keywords: robot,gadget,software,hardware,development
+#rootpath: /  # default is /
+markdown: redcarpet
+pygments: true
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']

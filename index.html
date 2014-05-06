@@ -1,0 +1,90 @@
+---
+layout: default
+title:
+---
+
+<style>
+div.buttons.row > div.four.columns > img {
+	display: block;
+	margin: 0 auto;
+}
+
+div.buttons.row > div.four.columns > div.medium.primary.btn {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.modal > .content {
+  min-height: 30%;
+}
+</style>
+
+<!-- eye catch -->
+<div class="row">
+	<div class="centered nine columns">
+		<img src="{{ site.rootpath }}/img/karo-ta/eye-catch.png" alt="" />
+	</div>
+</div>
+
+<div class="buttons row">
+	<!-- contact -->
+	<div class="four columns">
+		<img src="{{ site.rootpath }}/img/icon/mail.png" alt="" width="150" />
+
+		<div class="modal" id="mail-modal">
+			<div class="content">
+				<a class="close switch" gumby-trigger="|#mail-modal"><i class="icon-cancel" /></i></a>
+				<div class="row">
+					<div class="ten columns centered text-center">
+						<h2>Contact</h2>
+						<p>karotaにご興味がある方は以下からご連絡ください。</p>
+						<p>info@karota.net</p>
+						<div class="medium primary btn">
+							<a href="#" class="switch" gumby-trigger="|#mail-modal">Close</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="medium primary btn">
+			<a href="#" class="switch" gumby-trigger="#mail-modal">Contact</a>
+		</div>
+	</div>
+
+	<!-- roomba hack -->
+	<div class="four columns">
+		<img src="{{ site.rootpath }}/img/icon/setting.png" alt="" width="150" />
+
+		<div class="modal" id="roomba-modal">
+			<div class="content">
+				<a class="close switch" gumby-trigger="|#roomba-modal"><i class="icon-cancel" /></i></a>
+				<div class="row">
+					<div class="ten columns centered text-center">
+						<h2>Roomba Hack</h2>
+						<p>家庭用掃除ロボットRoombaをより身近な存在に... ただいまハッキング中。</p>
+						<p>&nbsp;</p>
+						<div class="medium primary btn">
+							<a href="#" class="switch" gumby-trigger="|#roomba-modal">Close</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="medium primary btn">
+			<a href="#" class="switch" gumby-trigger="#roomba-modal">Roomba Hack</a>
+		</div>
+	</div>
+
+	<!-- blog -->
+	<div class="four columns">
+		<img src="{{ site.rootpath }}/img/icon/blog.png" alt="" width="150" />
+
+		<div class="medium primary btn">
+			<a href="http://blog.karota.net">Blog</a>
+		</div>
+	</div>
+
+</div>

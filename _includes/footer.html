@@ -1,0 +1,84 @@
+<style>
+/* twitter */
+.btn.twitter, .skiplink.twitter {
+	background: #00aced;
+	border: 1px solid #00aced;
+}
+.btn.twitter:hover, .skiplink.twitter:hover {
+	background: #21c2ff;
+}
+.btn.twitter:active, .skiplink.twitter:active {
+	background: #0087ba;
+}
+
+/* facebook */
+.btn.facebook, .skiplink.facebook {
+	background: #3b5998;
+	border: 1px solid #3b5998;
+}
+.btn.facebook:hover, .skiplink.facebook:hover {
+	background: #4c70ba;
+}
+.btn.facebook:active, .skiplink.facebook:active {
+	background: #2d4373;
+}
+
+/* social buttons */
+.socbtns {
+	display: inline-block;
+	padding: 15px 0;
+	overflow: hidden;
+}
+.socbtns li {
+	float: left;
+}
+.socbtns li + li {
+	border-left: 1px solid #fff;
+}
+.socbtns .btn a {
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 480px) {
+	.socbtns {
+		max-width: 80%;
+	}
+	.socbtns li {
+		width: 50%;
+		padding-bottom: 1px;
+		border-left: 1px solid #fff;
+	}
+	.socbtns li .btn {
+		display: block;
+		width: 100%;
+	}
+}
+
+/* copyright */
+.copyright {
+	padding: 15px 0;
+}
+
+/* misc helpers */
+.nobr {
+	white-space: nowrap;
+}
+
+</style>
+
+<div class="row">
+	<div class="seven columns">
+		<ul class="socbtns">
+			<li><div class="btn primary"><a href="https://github.com/karota-project" target="_blank">Github</a></div></li>
+			<li><div class="btn twitter"><a href="https://twitter.com/karota_project" target="_blank">Twitter</a></div></li>
+			<li><div class="btn facebook"><a href="https://www.facebook.com/pages/karota/1420102624923505" target="_blank">Facebook</a></div></li>
+			<li><div class="btn danger"><a href="https://plus.google.com/communities/114239992155944652487" target="_blank">Google+</a></div></li>
+		</ul>
+	</div>
+
+	<div class="push_two three columns">
+		<div class="copyright">
+			<p class="nobr">&copy; 2014 karota.</p>
+		</div>
+	</div>
+</div>
